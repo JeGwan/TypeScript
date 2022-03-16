@@ -118,6 +118,10 @@ ${patch ? vfs.formatPatch(patch) : ""}`
     export function tscCompile(input: TscCompile) {
         let actualReadFileMap: MapLike<number> | undefined;
         let getPrograms: CommandLineCallbacks["getPrograms"] | undefined;
+        let getModifiedCalls: MapLike<number> | undefined;
+        let setModifiedCalls: MapLike<number> | undefined;
+        let fileExistsCalls: MapLike<number> | undefined;
+        let directoryExistsCalls: MapLike<number> | undefined;
         return tscCompileLike({
             ...input,
             worker,
@@ -143,7 +147,42 @@ ${patch ? vfs.formatPatch(patch) : ""}`
                 }
                 return originalReadFile.call(sys, path);
             };
-
+            getModifiedCalls = {};
+            setModifiedCalls = {};
+            fileExistsCalls = {};
+            directoryExistsCalls = {};
+            const originalGetModifiedTime = sys.getModifiedTime;
+            sys.getModifiedTime = path => {
+                // Dont record libs
+                if (getModifiedCalls && path.startsWith("/src/")) {
+                    getModifiedCalls[path] = (getProperty(getModifiedCalls, path) || 0) + 1;
+                }
+                return originalGetModifiedTime.call(sys, path);
+            };
+            const originalSetModifiedTime = sys.setModifiedTime;
+            sys.setModifiedTime = (path, time) => {
+                // Dont record libs
+                if (setModifiedCalls && path.startsWith("/src/")) {
+                    setModifiedCalls[path] = (getProperty(setModifiedCalls, path) || 0) + 1;
+                }
+                return originalSetModifiedTime.call(sys, path, time);
+            };
+            const originalFileExists = sys.fileExists;
+            sys.fileExists = path => {
+                // Dont record libs
+                if (fileExistsCalls && path.startsWith("/src/")) {
+                    fileExistsCalls[path] = (getProperty(fileExistsCalls, path) || 0) + 1;
+                }
+                return originalFileExists.call(sys, path);
+            };
+            const originalDirectoryExists = sys.directoryExists;
+            sys.directoryExists = path => {
+                // Dont record libs
+                if (directoryExistsCalls && path.startsWith("/src/")) {
+                    directoryExistsCalls[path] = (getProperty(directoryExistsCalls, path) || 0) + 1;
+                }
+                return originalDirectoryExists.call(sys, path);
+            };
             const result = commandLineCallbacks(sys, originalReadFile, originalWriteFile);
             executeCommandLine(
                 sys,
@@ -164,8 +203,16 @@ ${patch ? vfs.formatPatch(patch) : ""}`
             if (baselineReadFileCalls) {
                 sys.write(`readFiles:: ${JSON.stringify(actualReadFileMap, /*replacer*/ undefined, " ")} `);
             }
+            sys.write(`\ngetModifiedTime:: ${JSON.stringify(getModifiedCalls, /*replacer*/ undefined, " ")}\n`);
+            sys.write(`\nsetModifiedTime:: ${JSON.stringify(setModifiedCalls, /*replacer*/ undefined, " ")}\n`);
+            sys.write(`\nfileExists:: ${JSON.stringify(fileExistsCalls, /*replacer*/ undefined, " ")}\n`);
+            sys.write(`\ndirectoryExists:: ${JSON.stringify(directoryExistsCalls, /*replacer*/ undefined, " ")}\n`);
             if (baselineSourceMap) generateSourceMapBaselineFiles(sys);
             actualReadFileMap = undefined;
+            getModifiedCalls = undefined;
+            setModifiedCalls = undefined;
+            fileExistsCalls = undefined;
+            directoryExistsCalls = undefined;
             getPrograms = undefined;
         }
     }
