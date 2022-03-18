@@ -712,7 +712,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/sample1/logic/index.ts": 1,
  "/user/username/projects/sample1/logic/index.js": 1,
  "/user/username/projects/sample1/logic/index.d.ts": 1,
  "/user/username/projects/sample1/tests/index.d.ts": 1
@@ -1019,7 +1018,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/sample1/logic/index.ts": 1,
  "/user/username/projects/sample1/logic/index.js": 1,
  "/user/username/projects/sample1/tests/index.d.ts": 1
 } 

@@ -159,15 +159,11 @@ WatchedFiles::
   {"fileName":"/user/username/projects/myproject/packages/pkg2/index.ts","pollingInterval":250}
 /user/username/projects/myproject/packages/pkg2/package.json:
   {"fileName":"/user/username/projects/myproject/packages/pkg2/package.json","pollingInterval":250}
-  {"fileName":"/user/username/projects/myproject/packages/pkg2/package.json","pollingInterval":250}
 /a/lib/package.json:
-  {"fileName":"/a/lib/package.json","pollingInterval":250}
   {"fileName":"/a/lib/package.json","pollingInterval":250}
 /a/package.json:
   {"fileName":"/a/package.json","pollingInterval":250}
-  {"fileName":"/a/package.json","pollingInterval":250}
 /package.json:
-  {"fileName":"/package.json","pollingInterval":250}
   {"fileName":"/package.json","pollingInterval":250}
 /user/username/projects/myproject/packages/pkg1/tsconfig.json:
   {"fileName":"/user/username/projects/myproject/packages/pkg1/tsconfig.json","pollingInterval":250}
@@ -417,15 +413,11 @@ WatchedFiles::
   {"fileName":"/user/username/projects/myproject/packages/pkg2/index.ts","pollingInterval":250}
 /user/username/projects/myproject/packages/pkg2/package.json:
   {"fileName":"/user/username/projects/myproject/packages/pkg2/package.json","pollingInterval":250}
-  {"fileName":"/user/username/projects/myproject/packages/pkg2/package.json","pollingInterval":250}
 /a/lib/package.json:
-  {"fileName":"/a/lib/package.json","pollingInterval":250}
   {"fileName":"/a/lib/package.json","pollingInterval":250}
 /a/package.json:
   {"fileName":"/a/package.json","pollingInterval":250}
-  {"fileName":"/a/package.json","pollingInterval":250}
 /package.json:
-  {"fileName":"/package.json","pollingInterval":250}
   {"fileName":"/package.json","pollingInterval":250}
 /user/username/projects/myproject/packages/pkg1/tsconfig.json:
   {"fileName":"/user/username/projects/myproject/packages/pkg1/tsconfig.json","pollingInterval":250}
@@ -492,7 +484,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/myproject/packages/pkg1/index.ts": 1,
  "/user/username/projects/myproject/packages/pkg1/build/index.js": 1
 } 
 
@@ -585,15 +576,11 @@ WatchedFiles::
   {"fileName":"/user/username/projects/myproject/packages/pkg2/index.ts","pollingInterval":250}
 /user/username/projects/myproject/packages/pkg2/package.json:
   {"fileName":"/user/username/projects/myproject/packages/pkg2/package.json","pollingInterval":250}
-  {"fileName":"/user/username/projects/myproject/packages/pkg2/package.json","pollingInterval":250}
 /a/lib/package.json:
-  {"fileName":"/a/lib/package.json","pollingInterval":250}
   {"fileName":"/a/lib/package.json","pollingInterval":250}
 /a/package.json:
   {"fileName":"/a/package.json","pollingInterval":250}
-  {"fileName":"/a/package.json","pollingInterval":250}
 /package.json:
-  {"fileName":"/package.json","pollingInterval":250}
   {"fileName":"/package.json","pollingInterval":250}
 /user/username/projects/myproject/packages/pkg1/tsconfig.json:
   {"fileName":"/user/username/projects/myproject/packages/pkg1/tsconfig.json","pollingInterval":250}
@@ -655,7 +642,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/myproject/packages/pkg1/index.ts": 1,
  "/user/username/projects/myproject/packages/pkg1/build/index.js": 1
 } 
 
@@ -759,15 +745,11 @@ WatchedFiles::
   {"fileName":"/user/username/projects/myproject/packages/pkg2/index.ts","pollingInterval":250}
 /user/username/projects/myproject/packages/pkg2/package.json:
   {"fileName":"/user/username/projects/myproject/packages/pkg2/package.json","pollingInterval":250}
-  {"fileName":"/user/username/projects/myproject/packages/pkg2/package.json","pollingInterval":250}
 /a/lib/package.json:
-  {"fileName":"/a/lib/package.json","pollingInterval":250}
   {"fileName":"/a/lib/package.json","pollingInterval":250}
 /a/package.json:
   {"fileName":"/a/package.json","pollingInterval":250}
-  {"fileName":"/a/package.json","pollingInterval":250}
 /package.json:
-  {"fileName":"/package.json","pollingInterval":250}
   {"fileName":"/package.json","pollingInterval":250}
 /user/username/projects/myproject/packages/pkg1/tsconfig.json:
   {"fileName":"/user/username/projects/myproject/packages/pkg1/tsconfig.json","pollingInterval":250}
@@ -834,7 +816,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/myproject/packages/pkg1/index.ts": 1,
  "/user/username/projects/myproject/packages/pkg1/build/index.js": 1
 } 
 
@@ -904,15 +885,11 @@ WatchedFiles::
   {"fileName":"/user/username/projects/myproject/packages/pkg2/const.cts","pollingInterval":250}
 /user/username/projects/myproject/packages/pkg2/package.json:
   {"fileName":"/user/username/projects/myproject/packages/pkg2/package.json","pollingInterval":250}
-  {"fileName":"/user/username/projects/myproject/packages/pkg2/package.json","pollingInterval":250}
 /a/lib/package.json:
-  {"fileName":"/a/lib/package.json","pollingInterval":250}
   {"fileName":"/a/lib/package.json","pollingInterval":250}
 /a/package.json:
   {"fileName":"/a/package.json","pollingInterval":250}
-  {"fileName":"/a/package.json","pollingInterval":250}
 /package.json:
-  {"fileName":"/package.json","pollingInterval":250}
   {"fileName":"/package.json","pollingInterval":250}
 /user/username/projects/myproject/packages/pkg1/tsconfig.json:
   {"fileName":"/user/username/projects/myproject/packages/pkg1/tsconfig.json","pollingInterval":250}
@@ -1031,7 +1008,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/myproject/packages/pkg2/const.cts": 1,
  "/user/username/projects/myproject/packages/pkg2/index.cts": 1,
  "/user/username/projects/myproject/packages/pkg2/build/const.cjs": 1
 } 

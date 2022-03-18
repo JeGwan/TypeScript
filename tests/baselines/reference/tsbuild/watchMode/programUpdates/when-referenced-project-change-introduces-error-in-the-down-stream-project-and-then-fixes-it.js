@@ -361,7 +361,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/sample1/library/library.ts": 1,
  "/user/username/projects/sample1/library/library.js": 1
 } 
 
@@ -524,7 +523,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/sample1/library/library.ts": 1,
  "/user/username/projects/sample1/library/library.js": 1
 } 
 

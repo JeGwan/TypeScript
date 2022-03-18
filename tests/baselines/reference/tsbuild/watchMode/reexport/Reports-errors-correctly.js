@@ -494,8 +494,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/reexport/src/pure/index.ts": 1,
- "/user/username/projects/reexport/src/pure/session.ts": 1,
  "/user/username/projects/reexport/out/pure/index.js": 1
 } 
 
@@ -690,8 +688,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/reexport/src/pure/index.ts": 1,
- "/user/username/projects/reexport/src/pure/session.ts": 1,
  "/user/username/projects/reexport/out/pure/index.js": 1
 } 
 

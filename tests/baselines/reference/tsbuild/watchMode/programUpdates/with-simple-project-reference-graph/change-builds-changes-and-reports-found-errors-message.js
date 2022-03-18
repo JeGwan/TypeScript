@@ -664,8 +664,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/sample1/core/anothermodule.ts": 1,
- "/user/username/projects/sample1/core/index.ts": 1,
  "/user/username/projects/sample1/core/anothermodule.js": 1
 } 
 
@@ -1139,8 +1137,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/sample1/core/anothermodule.ts": 1,
- "/user/username/projects/sample1/core/index.ts": 1,
  "/user/username/projects/sample1/core/anothermodule.js": 1
 } 
 
@@ -1632,8 +1628,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/sample1/core/anothermodule.ts": 1,
- "/user/username/projects/sample1/core/index.ts": 1,
  "/user/username/projects/sample1/core/anothermodule.js": 1
 } 
 

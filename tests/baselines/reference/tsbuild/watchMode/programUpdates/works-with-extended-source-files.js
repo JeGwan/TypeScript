@@ -327,15 +327,12 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/a/b/commonfile1.ts": 1,
- "/a/b/commonfile2.ts": 1,
  "/a/b/commonfile1.js": 1,
  "/a/b/commonfile1.d.ts": 2,
  "/a/b/commonfile2.js": 1,
  "/a/b/commonfile2.d.ts": 2,
  "/a/b/project1.tsconfig.tsbuildinfo": 1,
- "/a/b/project1.tsconfig.json": 1,
- "/a/b/alpha.tsconfig.json": 1
+ "/a/b/project1.tsconfig.json": 1
 } 
 
 setModifiedTimes:: {
@@ -417,13 +414,11 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/a/b/other.ts": 1,
  "/a/b/other.js": 1,
  "/a/b/other.d.ts": 2,
  "/a/b/project2.tsconfig.tsbuildinfo": 1,
  "/a/b/project2.tsconfig.json": 1,
- "/a/b/bravo.tsconfig.json": 1,
- "/a/b/alpha.tsconfig.json": 1
+ "/a/b/bravo.tsconfig.json": 1
 } 
 
 setModifiedTimes:: {
@@ -512,12 +507,9 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/a/b/other.ts": 1,
  "/a/b/other.js": 1,
  "/a/b/other.d.ts": 2,
- "/a/b/project2.tsconfig.tsbuildinfo": 1,
- "/a/b/project2.tsconfig.json": 1,
- "/a/b/bravo.tsconfig.json": 1
+ "/a/b/project2.tsconfig.tsbuildinfo": 1
 } 
 
 setModifiedTimes:: {
@@ -580,9 +572,7 @@ WatchedFiles::
   {"fileName":"/a/b/alpha.tsconfig.json","pollingInterval":250}
 /a/b/commonfile1.ts:
   {"fileName":"/a/b/commonFile1.ts","pollingInterval":250}
-  {"fileName":"/a/b/commonFile1.ts","pollingInterval":250}
 /a/b/commonfile2.ts:
-  {"fileName":"/a/b/commonFile2.ts","pollingInterval":250}
   {"fileName":"/a/b/commonFile2.ts","pollingInterval":250}
 /a/b/project2.tsconfig.json:
   {"fileName":"/a/b/project2.tsconfig.json","pollingInterval":250}
@@ -624,13 +614,9 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/a/b/commonfile1.ts": 1,
- "/a/b/commonfile2.ts": 1,
- "/a/b/other.ts": 1,
  "/a/b/commonfile1.js": 1,
  "/a/b/commonfile2.js": 1,
- "/a/b/other.js": 1,
- "/a/b/project2.tsconfig.json": 1
+ "/a/b/other.js": 1
 } 
 
 setModifiedTimes:: {} 
@@ -684,9 +670,7 @@ WatchedFiles::
   {"fileName":"/a/b/alpha.tsconfig.json","pollingInterval":250}
 /a/b/commonfile1.ts:
   {"fileName":"/a/b/commonFile1.ts","pollingInterval":250}
-  {"fileName":"/a/b/commonFile1.ts","pollingInterval":250}
 /a/b/commonfile2.ts:
-  {"fileName":"/a/b/commonFile2.ts","pollingInterval":250}
   {"fileName":"/a/b/commonFile2.ts","pollingInterval":250}
 /a/b/project2.tsconfig.json:
   {"fileName":"/a/b/project2.tsconfig.json","pollingInterval":250}
@@ -718,15 +702,11 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/a/b/commonfile1.ts": 1,
- "/a/b/commonfile2.ts": 1,
  "/a/b/commonfile1.js": 1,
  "/a/b/commonfile1.d.ts": 2,
  "/a/b/commonfile2.js": 1,
  "/a/b/commonfile2.d.ts": 2,
- "/a/b/project1.tsconfig.tsbuildinfo": 1,
- "/a/b/project1.tsconfig.json": 1,
- "/a/b/alpha.tsconfig.json": 1
+ "/a/b/project1.tsconfig.tsbuildinfo": 1
 } 
 
 setModifiedTimes:: {
@@ -784,9 +764,7 @@ WatchedFiles::
   {"fileName":"/a/b/alpha.tsconfig.json","pollingInterval":250}
 /a/b/commonfile1.ts:
   {"fileName":"/a/b/commonFile1.ts","pollingInterval":250}
-  {"fileName":"/a/b/commonFile1.ts","pollingInterval":250}
 /a/b/commonfile2.ts:
-  {"fileName":"/a/b/commonFile2.ts","pollingInterval":250}
   {"fileName":"/a/b/commonFile2.ts","pollingInterval":250}
 /a/b/project2.tsconfig.json:
   {"fileName":"/a/b/project2.tsconfig.json","pollingInterval":250}
@@ -814,14 +792,9 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/a/b/commonfile1.ts": 1,
- "/a/b/commonfile2.ts": 1,
- "/a/b/other.ts": 1,
  "/a/b/commonfile1.js": 1,
  "/a/b/commonfile2.js": 1,
- "/a/b/other.js": 1,
- "/a/b/project2.tsconfig.json": 1,
- "/a/b/alpha.tsconfig.json": 1
+ "/a/b/other.js": 1
 } 
 
 setModifiedTimes:: {

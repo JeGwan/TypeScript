@@ -401,7 +401,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/sample1/core/index.ts": 1,
  "/user/username/projects/sample1/core/index.js": 1
 } 
 
@@ -707,7 +706,6 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/sample1/core/index.ts": 1,
  "/user/username/projects/sample1/core/index.js": 1,
  "/user/username/projects/sample1/core/index.d.ts": 1
 } 
