@@ -22,11 +22,11 @@ Output::
     * src/second/tsconfig.json
     * src/third/tsconfig.json
 
-[[90m12:08:00 AM[0m] Project 'src/first/tsconfig.json' is out of date because oldest output 'src/first/bin/first-output.js' is older than newest input 'src/first/first_PART1.ts'
+[[90m12:08:00 AM[0m] Project 'src/first/tsconfig.json' is out of date because oldest output 'src/first/bin/first-output.tsbuildinfo' is older than newest input 'src/first/first_PART1.ts'
 
 [[90m12:08:00 AM[0m] Building project '/src/first/tsconfig.json'...
 
-[[90m12:08:00 AM[0m] Project 'src/second/tsconfig.json' is up to date because newest input 'src/second/second_part1.ts' is older than oldest output 'src/2/second-output.js'
+[[90m12:08:00 AM[0m] Project 'src/second/tsconfig.json' is up to date because newest input 'src/second/second_part1.ts' is older than oldest output 'src/2/second-output.tsbuildinfo'
 
 [[90m12:08:00 AM[0m] Project 'src/third/tsconfig.json' is out of date because output of its dependency 'src/first' has changed
 
@@ -40,22 +40,22 @@ getModifiedTime:: {
  "/src/first/first_PART1.ts": 1,
  "/src/first/first_part2.ts": 1,
  "/src/first/first_part3.ts": 1,
- "/src/first/bin/first-output.js": 1,
+ "/src/first/bin/first-output.tsbuildinfo": 1,
  "/src/first/bin/first-output.d.ts": 1,
  "/src/second/second_part1.ts": 1,
  "/src/second/second_part2.ts": 1,
+ "/src/2/second-output.tsbuildinfo": 1,
  "/src/2/second-output.js": 1,
  "/src/2/second-output.js.map": 1,
  "/src/2/second-output.d.ts": 1,
  "/src/2/second-output.d.ts.map": 1,
- "/src/2/second-output.tsbuildinfo": 1,
  "/src/second/tsconfig.json": 1,
  "/src/third/third_part1.ts": 1,
+ "/src/third/thirdjs/output/third-output.tsbuildinfo": 1,
  "/src/third/thirdjs/output/third-output.js": 1,
  "/src/third/thirdjs/output/third-output.js.map": 1,
  "/src/third/thirdjs/output/third-output.d.ts": 2,
  "/src/third/thirdjs/output/third-output.d.ts.map": 1,
- "/src/third/thirdjs/output/third-output.tsbuildinfo": 1,
  "/src/third/tsconfig.json": 1
 }
 

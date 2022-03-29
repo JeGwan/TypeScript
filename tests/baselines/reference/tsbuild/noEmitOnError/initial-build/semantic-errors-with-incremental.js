@@ -74,7 +74,7 @@ getModifiedTime:: {
  "/src/shared/types/db.ts": 1,
  "/src/src/main.ts": 1,
  "/src/src/other.ts": 1,
- "/src/dev-build/shared/types/db.js": 1
+ "/src/dev-build/tsconfig.tsbuildinfo": 1
 }
 
 setModifiedTime:: {}
@@ -211,7 +211,7 @@ getModifiedTime:: {
  "/src/shared/types/db.ts": 1,
  "/src/src/main.ts": 1,
  "/src/src/other.ts": 1,
- "/src/dev-build/shared/types/db.js": 1
+ "/src/dev-build/tsconfig.tsbuildinfo": 1
 }
 
 setModifiedTime:: {}
@@ -258,7 +258,7 @@ getModifiedTime:: {
  "/src/shared/types/db.ts": 1,
  "/src/src/main.ts": 1,
  "/src/src/other.ts": 1,
- "/src/dev-build/shared/types/db.js": 1
+ "/src/dev-build/tsconfig.tsbuildinfo": 1
 }
 
 setModifiedTime:: {}
@@ -362,9 +362,6 @@ getModifiedTime:: {
  "/src/shared/types/db.ts": 1,
  "/src/src/main.ts": 1,
  "/src/src/other.ts": 1,
- "/src/dev-build/shared/types/db.js": 1,
- "/src/dev-build/src/main.js": 1,
- "/src/dev-build/src/other.js": 1,
  "/src/dev-build/tsconfig.tsbuildinfo": 1,
  "/src/tsconfig.json": 1
 }

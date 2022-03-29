@@ -188,7 +188,7 @@ directoryExists:: {
 
 getModifiedTimes:: {
  "/user/username/projects/sample1/library/library.ts": 1,
- "/user/username/projects/sample1/library/library.js": 1,
+ "/user/username/projects/sample1/library/tsconfig.tsbuildinfo": 1,
  "/user/username/projects/sample1/app/app.ts": 1,
  "/user/username/projects/sample1/app/app.js": 1
 } 
@@ -361,7 +361,7 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/sample1/library/library.js": 1
+ "/user/username/projects/sample1/library/tsconfig.tsbuildinfo": 1
 } 
 
 setModifiedTimes:: {} 
@@ -523,7 +523,7 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/sample1/library/library.js": 1
+ "/user/username/projects/sample1/library/tsconfig.tsbuildinfo": 1
 } 
 
 setModifiedTimes:: {} 

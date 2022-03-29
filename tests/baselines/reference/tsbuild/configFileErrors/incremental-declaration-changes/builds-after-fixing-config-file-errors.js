@@ -11,7 +11,7 @@ exitCode:: ExitStatus.Success
 getModifiedTime:: {
  "/src/a.ts": 1,
  "/src/b.ts": 1,
- "/src/a.js": 1
+ "/src/tsconfig.tsbuildinfo": 1
 }
 
 setModifiedTime:: {}

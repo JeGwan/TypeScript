@@ -162,7 +162,7 @@ Output::
     * zoo/tsconfig.json
     * tsconfig.json
 
-[[90m12:00:48 AM[0m] Project 'core/tsconfig.json' is out of date because output file 'lib/core/utilities.js' does not exist
+[[90m12:00:48 AM[0m] Project 'core/tsconfig.json' is out of date because output file 'lib/core/tsconfig.tsbuildinfo' does not exist
 
 [[90m12:00:49 AM[0m] Building project '/user/username/projects/demo/core/tsconfig.json'...
 
@@ -450,7 +450,7 @@ directoryExists:: {
 
 getModifiedTimes:: {
  "/user/username/projects/demo/core/utilities.ts": 1,
- "/user/username/projects/demo/lib/core/utilities.js": 1
+ "/user/username/projects/demo/lib/core/tsconfig.tsbuildinfo": 1
 } 
 
 setModifiedTimes:: {} 
@@ -486,7 +486,7 @@ Output::
 >> Screen clear
 [[90m12:01:07 AM[0m] File change detected. Starting incremental compilation...
 
-[[90m12:01:08 AM[0m] Project 'core/tsconfig.json' is out of date because output file 'lib/core/utilities.js' does not exist
+[[90m12:01:08 AM[0m] Project 'core/tsconfig.json' is out of date because oldest output 'lib/core/tsconfig.tsbuildinfo' is older than newest input 'core/utilities.ts'
 
 [[90m12:01:09 AM[0m] Building project '/user/username/projects/demo/core/tsconfig.json'...
 
@@ -754,7 +754,7 @@ directoryExists:: {
 } 
 
 getModifiedTimes:: {
- "/user/username/projects/demo/lib/core/utilities.js": 1
+ "/user/username/projects/demo/lib/core/tsconfig.tsbuildinfo": 1
 } 
 
 setModifiedTimes:: {} 
