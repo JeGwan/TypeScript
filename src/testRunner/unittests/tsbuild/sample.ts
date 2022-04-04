@@ -366,7 +366,8 @@ export class someClass { }`),
                 buildKind: BuildKind.IncrementalDtsUnchanged,
                 modifyFs: fs => appendText(fs, "/src/core/index.ts", `
 class someClass2 { }`),
-            }
+            },
+            noChangeRun,
         ];
 
         describe("lists files", () => {

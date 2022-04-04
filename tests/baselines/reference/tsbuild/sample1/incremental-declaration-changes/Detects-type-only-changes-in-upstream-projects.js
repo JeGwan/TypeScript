@@ -48,15 +48,7 @@ getModifiedTime:: {
 }
 
 setModifiedTime:: {
- "/src/core/anotherModule.js": 1,
- "/src/core/anotherModule.d.ts": 1,
- "/src/core/anotherModule.d.ts.map": 1,
- "/src/logic/index.js": 1,
- "/src/logic/index.js.map": 1,
- "/src/logic/index.d.ts": 1,
  "/src/logic/tsconfig.tsbuildinfo": 1,
- "/src/tests/index.js": 1,
- "/src/tests/index.d.ts": 1,
  "/src/tests/tsconfig.tsbuildinfo": 1
 }
 

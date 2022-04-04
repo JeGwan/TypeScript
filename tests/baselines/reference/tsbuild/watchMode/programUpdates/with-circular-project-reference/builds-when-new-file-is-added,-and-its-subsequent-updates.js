@@ -534,10 +534,6 @@ FsWatchesRecursive::
 
 exitCode:: ExitStatus.undefined
 
-//// [/user/username/projects/sample1/core/anotherModule.js] file changed its modified time
-//// [/user/username/projects/sample1/core/anotherModule.d.ts] file changed its modified time
-//// [/user/username/projects/sample1/core/index.js] file changed its modified time
-//// [/user/username/projects/sample1/core/index.d.ts] file changed its modified time
 //// [/user/username/projects/sample1/core/tsconfig.tsbuildinfo]
 {"program":{"fileNames":["../../../../../a/lib/lib.d.ts","./anothermodule.ts","./index.ts","./newfile.ts"],"fileInfos":[{"version":"-7698705165-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }","affectsGlobalScope":true},"-2676574883-export const World = \"hello\";\r\n","-18749805970-export const someString: string = \"HELLO WORLD\";\r\nexport function leftPad(s: string, n: number) { return s + n; }\r\nexport function multiply(a: number, b: number) { return a * b; }\r\n",{"version":"-16320201030-export const newFileConst = 30;","signature":"-22941483372-export declare const newFileConst = 30;\n"}],"options":{"composite":true,"declaration":true},"referencedMap":[],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,2,3,4]},"version":"FakeTSVersion"}
 
@@ -618,12 +614,7 @@ getModifiedTimes:: {
  "/user/username/projects/sample1/core/tsconfig.tsbuildinfo": 1
 } 
 
-setModifiedTimes:: {
- "/user/username/projects/sample1/core/anothermodule.js": 1,
- "/user/username/projects/sample1/core/anothermodule.d.ts": 1,
- "/user/username/projects/sample1/core/index.js": 1,
- "/user/username/projects/sample1/core/index.d.ts": 1
-} 
+setModifiedTimes:: {} 
 
 Change:: Build logic or update time stamps
 
@@ -680,9 +671,6 @@ FsWatchesRecursive::
 
 exitCode:: ExitStatus.undefined
 
-//// [/user/username/projects/sample1/logic/index.js.map] file changed its modified time
-//// [/user/username/projects/sample1/logic/index.js] file changed its modified time
-//// [/user/username/projects/sample1/logic/index.d.ts] file changed its modified time
 //// [/user/username/projects/sample1/logic/tsconfig.tsbuildinfo] file changed its modified time
 
 fileExists:: {
@@ -705,9 +693,6 @@ getModifiedTimes:: {
 } 
 
 setModifiedTimes:: {
- "/user/username/projects/sample1/logic/index.js": 1,
- "/user/username/projects/sample1/logic/index.js.map": 1,
- "/user/username/projects/sample1/logic/index.d.ts": 1,
  "/user/username/projects/sample1/logic/tsconfig.tsbuildinfo": 1
 } 
 
@@ -770,8 +755,6 @@ FsWatchesRecursive::
 
 exitCode:: ExitStatus.undefined
 
-//// [/user/username/projects/sample1/tests/index.js] file changed its modified time
-//// [/user/username/projects/sample1/tests/index.d.ts] file changed its modified time
 //// [/user/username/projects/sample1/tests/tsconfig.tsbuildinfo] file changed its modified time
 
 fileExists:: {
@@ -794,8 +777,6 @@ getModifiedTimes:: {
 } 
 
 setModifiedTimes:: {
- "/user/username/projects/sample1/tests/index.js": 1,
- "/user/username/projects/sample1/tests/index.d.ts": 1,
  "/user/username/projects/sample1/tests/tsconfig.tsbuildinfo": 1
 } 
 
@@ -864,10 +845,6 @@ FsWatchesRecursive::
 
 exitCode:: ExitStatus.undefined
 
-//// [/user/username/projects/sample1/core/anotherModule.js] file changed its modified time
-//// [/user/username/projects/sample1/core/anotherModule.d.ts] file changed its modified time
-//// [/user/username/projects/sample1/core/index.js] file changed its modified time
-//// [/user/username/projects/sample1/core/index.d.ts] file changed its modified time
 //// [/user/username/projects/sample1/core/tsconfig.tsbuildinfo]
 {"program":{"fileNames":["../../../../../a/lib/lib.d.ts","./anothermodule.ts","./index.ts","./newfile.ts"],"fileInfos":[{"version":"-7698705165-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }","affectsGlobalScope":true},"-2676574883-export const World = \"hello\";\r\n","-18749805970-export const someString: string = \"HELLO WORLD\";\r\nexport function leftPad(s: string, n: number) { return s + n; }\r\nexport function multiply(a: number, b: number) { return a * b; }\r\n",{"version":"-9703836816-export const newFileConst = 30;\nexport class someClass2 { }","signature":"-12384508924-export declare const newFileConst = 30;\nexport declare class someClass2 {\n}\n"}],"options":{"composite":true,"declaration":true},"referencedMap":[],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,2,3,4]},"version":"FakeTSVersion"}
 
@@ -953,12 +930,7 @@ getModifiedTimes:: {
  "/user/username/projects/sample1/core/tsconfig.tsbuildinfo": 1
 } 
 
-setModifiedTimes:: {
- "/user/username/projects/sample1/core/anothermodule.js": 1,
- "/user/username/projects/sample1/core/anothermodule.d.ts": 1,
- "/user/username/projects/sample1/core/index.js": 1,
- "/user/username/projects/sample1/core/index.d.ts": 1
-} 
+setModifiedTimes:: {} 
 
 Change:: Build logic or update time stamps
 
@@ -1015,9 +987,6 @@ FsWatchesRecursive::
 
 exitCode:: ExitStatus.undefined
 
-//// [/user/username/projects/sample1/logic/index.js.map] file changed its modified time
-//// [/user/username/projects/sample1/logic/index.js] file changed its modified time
-//// [/user/username/projects/sample1/logic/index.d.ts] file changed its modified time
 //// [/user/username/projects/sample1/logic/tsconfig.tsbuildinfo] file changed its modified time
 
 fileExists:: {
@@ -1040,9 +1009,6 @@ getModifiedTimes:: {
 } 
 
 setModifiedTimes:: {
- "/user/username/projects/sample1/logic/index.js": 1,
- "/user/username/projects/sample1/logic/index.js.map": 1,
- "/user/username/projects/sample1/logic/index.d.ts": 1,
  "/user/username/projects/sample1/logic/tsconfig.tsbuildinfo": 1
 } 
 
@@ -1105,8 +1071,6 @@ FsWatchesRecursive::
 
 exitCode:: ExitStatus.undefined
 
-//// [/user/username/projects/sample1/tests/index.js] file changed its modified time
-//// [/user/username/projects/sample1/tests/index.d.ts] file changed its modified time
 //// [/user/username/projects/sample1/tests/tsconfig.tsbuildinfo] file changed its modified time
 
 fileExists:: {
@@ -1129,7 +1093,5 @@ getModifiedTimes:: {
 } 
 
 setModifiedTimes:: {
- "/user/username/projects/sample1/tests/index.js": 1,
- "/user/username/projects/sample1/tests/index.d.ts": 1,
  "/user/username/projects/sample1/tests/tsconfig.tsbuildinfo": 1
 } 
